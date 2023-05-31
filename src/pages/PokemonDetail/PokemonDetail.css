@@ -1,0 +1,38 @@
+.pokemon_detail {
+    text-align: center;
+    padding: 15px;
+    background-color: floralwhite;
+    height: 79.5vh;
+}
+.pokemon_detail h1 {
+    font-size: 35px;
+    font-family:   Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    color: crimson;
+    -webkit-text-stroke: 1px black;
+}
+.pokemon_detail p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkslategray;
+    text-shadow: 2px 5px 3px lightslategray;
+}
+.image img {
+    margin-top: 40px;
+    max-width: 30%;
+    height: 250px;
+}
+
+@media (max-width: 860px) {
+    .image img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 660px) {
+    .pokemon_detail p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

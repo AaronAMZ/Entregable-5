@@ -1,0 +1,30 @@
+.form_input {
+    height: 45px;
+    min-width: 250px ;
+    border-radius: 2px;
+}
+.form_button {
+    height: 45px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.form_button:hover {
+    font-weight: 700;
+}
+
+@media (max-width: 440px) {
+    .form_two {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       margin-top: 20px;
+    }
+}

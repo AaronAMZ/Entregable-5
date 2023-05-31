@@ -1,0 +1,17 @@
+.menu_btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.menu_btn button {
+    background-color: rgba(217, 63, 63, 1);
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.menu_btn button:hover {
+    color: darkslateblue;
+}

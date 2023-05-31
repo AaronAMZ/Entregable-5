@@ -1,0 +1,32 @@
+.header_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.header_layout img {
+    max-width: 400px;
+    height: 120px;
+    padding: 30px;
+}
+.header_layout button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.header_layout button:hover{
+    color: darkslateblue;
+}
+
+@media (max-width: 700px) {
+    .header_layout img {
+        max-width: 340px;
+        height: 120px;
+    }
+}
